@@ -1,10 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="docs/idntimes.png" alt="Logo">
-
-  <h3 align="center">IDN Time Profile and News Page</h3>
-  <img src="docs/screen.png" alt="Logo" width="375">
+  <h3 align="center">Profile and News Page</h3>
+  <!-- <img src="docs/screen.png" alt="Logo" width="375"> -->
   <p align="center">
     Website dengan profile and news feed
     <br />
