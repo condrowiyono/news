@@ -1,0 +1,26 @@
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.pillContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.listContainer {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  display: grid;
+  gap: 14px;
+  justify-content: space-between;
+}
+
+.livestreamContainer, .quizContainer {
+  display: grid;
+  gap: 14px;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, 155px);
+}

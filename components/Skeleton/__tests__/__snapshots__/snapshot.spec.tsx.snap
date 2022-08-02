@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Button unchanged 1`] = `
+<div>
+  <div
+    class="skeleton"
+    data-testid="skeleton"
+    style="height: 300px; width: 100px; border-radius: 4px;"
+  />
+</div>
+`;

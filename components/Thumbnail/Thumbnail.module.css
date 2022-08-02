@@ -1,0 +1,36 @@
+.container {
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 12px;
+}
+
+.category {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #797D7F;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 130%;
+  color: #14171A;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.total {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #797D7F;
+}

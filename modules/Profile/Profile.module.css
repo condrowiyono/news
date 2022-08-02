@@ -1,0 +1,46 @@
+.container {
+  padding: 16px 24px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E5E9EC;;
+}
+
+.profile {
+  display: flex;
+}
+
+.identityContainer {
+  margin-left: 16px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140%;
+  color: #797d7f;
+}
+
+.content {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 130%;
+  color: #14171A;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #14171A;
+  margin-bottom: 16px;
+}

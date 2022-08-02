@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Pill unchanged 1`] = `
+<div>
+  <button
+    class="pill active"
+    data-testid="pill"
+  >
+    Title
+  </button>
+</div>
+`;
