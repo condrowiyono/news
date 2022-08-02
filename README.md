@@ -11,7 +11,7 @@
     <a href="https://github.com/condrowiyono/news"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://news-opal-omega.vercel.app/">View Demo on Vercel</a>
+    <a href="https://news-condrowiyono.vercel.app/">View Demo on Vercel</a>
     ·
     <a href="https://github.com/condrowiyono/news/issues">Report Bug</a>
   </p>
@@ -45,6 +45,8 @@ yarn start
 Buka [http://localhost:3000](http://localhost:3000) dan lihat hasilnya.
 
 ## Dokoumentasi Component
+
+Dokumentasi lengkap menggunakan storybook di link berikut : [Dokumentasi](https://news-docs-condrowiyono.vercel.app/)
 
 Terdapat atomic komponen baru, yaitu
 - Button
