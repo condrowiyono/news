@@ -2,6 +2,7 @@ import ImageServer from "@components/Image";
 import style from "./Thumbnail.module.css";
 import Link from "next/link";
 import Skeleton from "@components/Skeleton";
+import { formatNumber } from "@utils/number";
 
 export const SkeletonThumbnail = () => {
   return (
@@ -34,7 +35,7 @@ const Thumbnail = ({ category, title, total_play, image }: INews) => {
             {title}
           </div>
           <div className={style.total}>
-            <strong>{total_play}</strong> plays
+            <strong>{formatNumber(total_play || 0)}</strong> plays
           </div>
         </div>
       </a>
