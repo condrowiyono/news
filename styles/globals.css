@@ -21,10 +21,15 @@ button {
 .container {
   width: 100%;
   margin-inline: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-@media only screen and (min-width: 375px) {
+
+@media only screen and (min-width: 480px) {
   .container {
-    width: 375px;
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
   }
 }

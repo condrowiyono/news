@@ -1,7 +1,8 @@
 .container {
   padding: 16px 24px;
   background: #FFFFFF;
-  border-bottom: 1px solid #E5E9EC;;
+  border-bottom: 1px solid #E5E9EC;
+  width: calc(100%-48px);
 }
 
 .profile {
@@ -43,4 +44,10 @@
   line-height: 160%;
   color: #14171A;
   margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    width: 375px;
+  }
 }

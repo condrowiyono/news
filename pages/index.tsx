@@ -49,8 +49,10 @@ const Home: NextPage<PageParams> = ({ name, ...rest }: PageParams) => {
         <title>{name}</title>
       </Head>
       <div className="container">
-        <Navbar />
-        <Profile name={name} {...rest} />
+        <div>
+          <Navbar />
+          <Profile name={name} {...rest} />
+        </div>
         <Content
           data={data}
           isLoading={isLoadingContent}

@@ -1,6 +1,7 @@
 .container {
   padding-left: 24px;
   padding-right: 24px;
+  width: calc(100%-48px);
 }
 
 .pillContainer {
@@ -23,4 +24,10 @@
   gap: 14px;
   justify-content: space-between;
   grid-template-columns: repeat(auto-fill, 155px);
+}
+
+@media only screen and (min-width: 480px) {
+  .container {
+    width: 800px;
+  }
 }
