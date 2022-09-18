@@ -79,7 +79,7 @@ exports[`Snapshot Thumbnail renders Thumbnail unchanged 1`] = `
         class="total"
       >
         <strong>
-          121212
+          121,212
         </strong>
          plays
       </div>
