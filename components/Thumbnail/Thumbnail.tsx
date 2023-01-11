@@ -7,7 +7,7 @@ import { formatNumber } from "@utils/number";
 export const SkeletonThumbnail = () => {
   return (
     <div data-testid="title">
-      <Skeleton width={156} height={156} borderRadius={8} />
+      <Skeleton width={120} height={120} borderRadius={8} />
       <div className={style.content}>
         <Skeleton width={96} height={16} />
         <Skeleton width={128} height={24} />

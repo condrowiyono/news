@@ -1,0 +1,21 @@
+.search {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.dropdown {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.dropdown .dropdownItem {
+  cursor: pointer;
+}
+
+.dropdown .dropdownItem:hover {
+  color: #f05d40;
+}
+
+.dropdown .dropdownItem[aria-selected="true"] {
+  color: #f05d40;
+}

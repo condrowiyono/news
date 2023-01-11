@@ -1,19 +1,22 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from 'next'
-import { faker } from '@faker-js/faker';
+import type { NextApiRequest, NextApiResponse } from "next";
+import { faker } from "@faker-js/faker";
 
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<INews[]>
 ) {
-  const response: INews[] = [1,2,3,4,5,6,7,8,9,10].map((el) => {
-    return ({
+  const response: INews[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((el) => {
+    return {
       id: el,
       link: `#${el}`,
-      title: faker.lorem.sentence(),
-      category: faker.lorem.word(),
-      date: faker.date.between('2020-01-01T00:00:00.000Z', '2030-01-01T00:00:00.000Z').toISOString(),
-      image: faker.image.city(112, 84, true)
-    })
-  })
-  res.status(200).json(response)}
+      title: faker.commerce.productName(),
+      category: faker.commerce.price(0, 100, 2, "Rp"),
+      date: faker.date
+        .between("2020-01-01T00:00:00.000Z", "2030-01-01T00:00:00.000Z")
+        .toISOString(),
+      image: faker.image.food(112, 84, true),
+    };
+  });
+  res.status(200).json(response);
+}

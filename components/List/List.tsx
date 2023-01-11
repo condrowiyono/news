@@ -51,14 +51,6 @@ const List = ({ image, title, date, category, link = "#" }: INews) => {
               alt={title}
               style={{ borderRadius: 8 }}
             />
-            <div className={style.watermark}>
-              <img
-                src="/logos/logo_idntimes.png"
-                width={45}
-                height={16}
-                alt="logo-idn"
-              />
-            </div>
           </div>
         </div>
         <div className={style.footer}>

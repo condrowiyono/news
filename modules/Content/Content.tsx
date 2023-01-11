@@ -6,9 +6,9 @@ import { useEffect, useState } from "react";
 import style from "./Content.module.css";
 
 const Tabs = [
-  { key: "news", label: "Berita" },
-  { key: "livestream", label: "Livestream" },
-  { key: "quiz", label: "Quiz" },
+  { key: "news", label: "Handphone" },
+  { key: "livestream", label: "Komputer" },
+  { key: "quiz", label: "Rumah Tangga" },
 ];
 
 interface IContent {
@@ -38,23 +38,23 @@ const Content = ({ data, onTabChange, isLoading }: IContent) => {
         ))}
       </div>
       {active === "news" && (
-        <div className={style.listContainer}>
+        <div className={style.quizContainer}>
           {isLoading
-            ? [1, 2, 3, 4].map((el) => <SkeletonList />)
-            : data.map((news) => <List key={news.id} {...news} />)}
+            ? [1, 2, 3, 4, 6, 5, 7, 8, 9, 10].map((el) => <SkeletonThumbnail key={el} />)
+            : data.map((news) => <Thumbnail key={news.id} {...news} />)}
         </div>
       )}
       {active === "livestream" && (
-        <div className={style.livestreamContainer}>
+        <div className={style.quizContainer}>
           {isLoading
-            ? [1, 2, 3, 4].map((el) => <SkeletonLivestream />)
-            : data.map((news) => <Livestream key={news.id} {...news} />)}
+            ? [1, 2, 3, 4, 6, 5, 7, 8, 9, 10].map((el) => <SkeletonThumbnail key={el} />)
+            : data.map((news) => <Thumbnail key={news.id} {...news} />)}
         </div>
       )}
       {active === "quiz" && (
         <div className={style.quizContainer}>
           {isLoading
-            ? [1, 2, 3, 4].map((el) => <SkeletonThumbnail />)
+            ? [1, 2, 3, 4, 6, 5, 7, 8, 9, 10].map((el) => <SkeletonThumbnail key={el} />)
             : data.map((news) => <Thumbnail key={news.id} {...news} />)}
         </div>
       )}
