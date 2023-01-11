@@ -19,14 +19,14 @@ export const SkeletonThumbnail = () => {
 
 const Thumbnail = ({ category, title, total_play, image }: INews) => {
   return (
-    <Link href="#">
+    <Link href={`#${title}`}>
       <a className={style.container}>
         <ImageServer
           src={image}
           objectFit="cover"
           width={156}
           height={156}
-          alt="profile-picture"
+          alt={`image for ${title} for accessibility`}
           style={{ borderRadius: 8 }}
         />
         <div className={style.content}>

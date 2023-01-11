@@ -51,6 +51,7 @@ const Search = () => {
   return (
     <>
       <input
+        aria-label="Search"
         onFocus={() => setDropdownOpen(true)}
         onBlur={() => setDropdownOpen(false)}
         placeholder="Search"
