@@ -37,18 +37,14 @@ const Home: NextPage<PageParams> = ({ name, ...rest }: PageParams) => {
   return (
     <>
       <Head>
-        <title>{name}</title>
+        <title>Mock Commerce</title>
       </Head>
       <div className="container">
         <Search />
-        <div tabindex="0" style={{ marginTop: 12 }}>
-          <img
-            src="https://cf.shopee.co.id/file/ffc2c84eeba2720bebcbd5a69e6b72f8_xhdpi"
-            alt="Promo Shopee"
-            width="100%"
-            height="auto"
-          />
+        <div tabIndex={0} style={{ marginTop: 12 }}>
+          <img src="/banner.png" alt="Promo Shopee" width="100%" height="auto" />
         </div>
+
         <Pill style={{ marginTop: 18 }} onClick={() => setFilterOpen(true)}>
           Filter
         </Pill>
@@ -76,7 +72,7 @@ const Home: NextPage<PageParams> = ({ name, ...rest }: PageParams) => {
               <option value="7">Moscow</option>
               <option value="8">Mumbai</option>
               <option value="9">New York</option>
-              <option value="10">São Paulo</option>
+              <option value="10">Sao Paulo</option>
               <option value="11">Tokyo</option>
             </select>
 

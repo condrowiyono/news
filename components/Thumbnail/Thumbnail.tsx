@@ -34,9 +34,6 @@ const Thumbnail = ({ category, title, total_play, image }: INews) => {
           <div className={style.title} data-testid="title">
             {title}
           </div>
-          <div className={style.total}>
-            <strong>{formatNumber(total_play || 0)}</strong> plays
-          </div>
         </div>
       </a>
     </Link>

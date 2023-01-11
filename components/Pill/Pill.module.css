@@ -16,8 +16,8 @@
 }
 
 .pill:hover, .pill.active  {
-  background: #FBD2D4;
+  background: #AD1414;
   border: 1px solid #FBD2D4;
-  color: #e2492b;
+  color: #ffffff;
   transition: all 0.5s;
 }

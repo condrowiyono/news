@@ -39,11 +39,11 @@ fieldset {
 }
 
 fieldset label {
-  margin-left: 8px;
+  padding-left: 8px;
 }
 
 button {
-  border: 1px solid #E5E9EC;
+  border: 1px solid #a9a9a9;
   background: transparent;
   border-radius: 32px;
   text-align: center;
@@ -56,13 +56,6 @@ button {
   cursor: pointer;
   display: inline-block;
   transition: all 0.3s;
-}
-
-button:hover, button.active  {
-  background: #FBD2D4;
-  border: 1px solid #FBD2D4;
-  color: #e2492b;
-  transition: all 0.5s;
 }
 
 .filter {
